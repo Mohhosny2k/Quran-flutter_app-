@@ -126,7 +126,7 @@ class _SuraBuilderState extends State<SuraBuilder> {
                               Icon(
                                 Icons.bookmark_add,
                                 color:
-                                Color.fromARGB(255, 56, 115, 59),
+                              Color.fromARGB(255,145, 224, 200),
                               ),
                               SizedBox(
                                 width: 10,
@@ -145,7 +145,7 @@ class _SuraBuilderState extends State<SuraBuilder> {
                               Icon(
                                 Icons.share,
                                 color:
-                                Color.fromARGB(255, 56, 115, 59),
+                                Color.fromARGB(255,145, 224, 200),
                               ),
                               SizedBox(
                                 width: 10,
@@ -239,7 +239,7 @@ class _SuraBuilderState extends State<SuraBuilder> {
                   ),
                 ]),
           ),
-          backgroundColor: const Color.fromARGB(255, 56, 115, 59),
+          backgroundColor:const Color.fromARGB(255,145, 224, 200),
         ),
         body: singleSuraBuilder(LengthOfSura),
       ),

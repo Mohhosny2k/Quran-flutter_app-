@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'dart:convert';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:yt_quran/splash_screen.dart';
 import 'constant.dart';
-import 'index.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -40,7 +37,8 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'Quran',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+
+        primarySwatch:   Colors.green,
       ),
       home: const SplashScreen(),//IndexPage(),
      

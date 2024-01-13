@@ -24,7 +24,7 @@ class _IndexPageState extends State<IndexPage> {
       floatingActionButton: FloatingActionButton(
         tooltip: 'Go to bookmark',
         child: const Icon(Icons.bookmark),
-        backgroundColor: Colors.green,
+        backgroundColor: Color.fromARGB(255,145, 224, 200),
         onPressed: () async {
           fabIsClicked= true;
           if (await readBookmark() == true) {
@@ -50,15 +50,16 @@ class _IndexPageState extends State<IndexPage> {
               //fontFamily: 'quran',
               fontSize: 35,
               fontWeight: FontWeight.bold,
+              color: Color.fromARGB(255,253, 247, 230),
               shadows: [
                 Shadow(
                   offset: Offset(1, 1),
                   blurRadius: 2.0,
-                  color: Color.fromARGB(255, 0, 0, 0),
+                  color:Color.fromARGB(255, 253, 247, 230),
                 ),
               ]),
         ),
-        backgroundColor: const Color.fromARGB(255, 56, 115, 59),
+        backgroundColor: const Color.fromARGB(255,145, 224, 200),
       ),
       body: FutureBuilder(
         future: readJson(),

@@ -17,7 +17,7 @@ class _SettingsState extends State<Settings> {
           title: const Text(
             "Settings",
           ),
-          backgroundColor: const Color.fromARGB(255, 56, 115, 59),
+          backgroundColor: const Color.fromARGB(255,145, 224, 200),
         ),
         body: SafeArea(
           child: Padding(

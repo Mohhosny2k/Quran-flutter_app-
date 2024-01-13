@@ -25,13 +25,14 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:Colors.green,
+      backgroundColor:Color.fromARGB(255,145, 224, 200),//Color.fromARGB(255, 56, 115, 59),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
          Image.asset(
-                  'assets/images/quran.png',
-                  height: 100,
+          'assets/images/qurannn.png',
+                 // 'assets/images/quran.png',
+                  height: 120,
                 ),
                 const SizedBox(height: 5,),
                 Row(
@@ -43,7 +44,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       //  textAlign: TextAlign.center,
                       style: TextStyle(
                           fontSize: 32,
-                          color: Colors.white,
+                          color: Colors.black,
                          ),
                     ),
                   ],
